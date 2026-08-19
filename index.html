@@ -1,219 +1,186 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Eungpyo Jang — Environmental Health</title>
-  <meta name="description" content="Eungpyo Jang is an environmental health researcher connecting research, ecological practice, and public communication." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#top">Eungpyo <span>Jang.</span></a>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#top">Home</a>
-      <a href="#what-i-do">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#projects">Projects</a>
-      <a href="#selected-work">Activities</a>
-      <span class="nav-soon" title="CV page coming next">CV</span>
-    </nav>
-  </header>
+---
+layout: default
+nav: home
+title: Home
+description: Eungpyo Jang is an environmental health researcher focusing on EcoHealth, nature, biodiversity, and human health.
+---
+<div id="top"></div>
+<section class="hero shell">
+  <div class="hero-copy">
+    <p class="eyebrow">HI THERE, I'M</p>
+    <h1>Eungpyo<br><span>Jang.</span></h1>
+    <p class="role">Environmental Health Researcher</p>
+    <p class="position-line">Founder &amp; President, Ecomoneyna · Research Intern with STEP Lab, KAIST GGGS</p>
+    <p class="identity-line">EcoHealth · Research · Practice · Communication</p>
+    <p class="intro">I aim to understand how nature, biodiversity, and environmental change shape human health, and to connect research with ecological practice and public communication.</p>
+    <div class="hero-links">
+      <a class="button primary" href="#selected-work">Explore my work</a>
+      <a class="button ghost" href="#connect">Get in touch ↗</a>
+    </div>
+  </div>
 
-  <main id="top">
-    <section class="hero shell">
-      <div class="hero-copy">
-        <p class="eyebrow">HI THERE, I'M</p>
-        <h1>Eungpyo<br><span>Jang.</span></h1>
-        <p class="role">Environmental Health Researcher</p>
-        <p class="affiliation">Founder, Ecomoneyna <span>·</span> Research Intern with STEP Lab, KAIST GGGS</p>
-        <p class="axis">Research <span>·</span> Practice <span>·</span> Communication</p>
-        <p class="intro">I aim to understand how environments shape human health and to connect research with ecological practice and public communication.</p>
-        <div class="hero-links">
-          <a class="button primary" href="#selected-work">Explore my work</a>
-          <a class="button ghost" href="mailto:yes_explorer@naver.com">Email me ↗</a>
+  <div class="hero-art" aria-label="Portrait of Eungpyo Jang">
+    <div class="portrait-glow"></div>
+    <div class="portrait-ring ring-one"></div>
+    <div class="portrait-ring ring-two"></div>
+    <div class="portrait-frame">
+      <img src="{{ '/assets/profile-web.jpg' | relative_url }}" alt="Eungpyo Jang" />
+    </div>
+    <svg class="hero-squiggle" viewBox="0 0 240 130" width="240" height="130" fill="none" aria-hidden="true">
+      <path d="M6 96 C 40 120, 70 60, 110 70 S 180 110, 224 40" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 11"/>
+      <path d="M224 40 l -14 2 m 14 -2 l -4 -13" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    </svg>
+  </div>
+</section>
+
+<section class="page-section research-focus-section">
+  <div class="shell research-focus-grid">
+    <div>
+      <p class="eyebrow">RESEARCH FOCUS</p>
+      <h2>EcoHealth</h2>
+    </div>
+    <div class="research-focus-copy">
+      <h3>Nature · Biodiversity · Human Health</h3>
+      <p>I study how nature and biodiversity shape human health, and how these benefits and risks are distributed across people and places.</p>
+      <a class="text-link" href="{{ '/research/' | relative_url }}">Explore my research →</a>
+    </div>
+  </div>
+</section>
+
+<section id="selected-work" class="page-section shell">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Research in motion.</h2>
+    </div>
+    <a class="section-more" href="{{ '/activities/' | relative_url }}">All activities</a>
+  </div>
+
+  <div class="work-grid">
+    <article class="work-card work-large">
+      <a href="https://doi.org/10.5322/JESI.2026.35.6.445" target="_blank" rel="noreferrer">
+        <div class="work-visual visual-swallow"><span>Research</span></div>
+        <div class="work-copy">
+          <p class="work-type">RESEARCH</p>
+          <h3>Barn Swallows &amp; Traditional Markets</h3>
+          <p>Exploring nesting ecology and public perceptions of urban biodiversity in traditional markets.</p>
+          <div class="tags"><span>Urban Ecology</span><span>Human Perception</span><span>Conservation</span></div>
         </div>
-        <div class="social-strip" aria-label="External links">
-          <a href="https://www.instagram.com/yes_pyo/" target="_blank" rel="noreferrer">Instagram ↗</a>
-          <a href="https://www.youtube.com/@ecomoneyna" target="_blank" rel="noreferrer">YouTube ↗</a>
-          <a href="https://blog.naver.com/yes_explorer" target="_blank" rel="noreferrer">Blog ↗</a>
-          <a href="https://github.com/eungpyojang" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </a>
+    </article>
+
+    <article class="work-card">
+      <a href="{{ '/research/' | relative_url }}#selected-research">
+        <div class="work-visual visual-heron"><span>Research</span></div>
+        <div class="work-copy">
+          <p class="work-type">RESEARCH</p>
+          <h3>Urban Heron Habitat Modeling</h3>
+          <p>Mapping potential habitats of urban herons using species distribution modeling and environmental data.</p>
+          <div class="tags"><span>MaxEnt</span><span>Species Distribution</span><span>GIS</span></div>
         </div>
+      </a>
+    </article>
+
+    <article class="work-card">
+      <a href="{{ '/activities/ecomoneyna/' | relative_url }}">
+        <div class="work-visual visual-ecomoneyna"><span>Practice</span></div>
+        <div class="work-copy">
+          <p class="work-type">PRACTICE</p>
+          <h3>Ecomoneyna</h3>
+          <p>Leading environmental and ecological initiatives that connect people, communities, and nature.</p>
+          <div class="tags"><span>Environmental Action</span><span>Ecology</span><span>Community</span></div>
+        </div>
+      </a>
+    </article>
+
+    <article class="work-card work-wide">
+      <a href="{{ '/activities/national-representative-80-citizens/' | relative_url }}">
+        <div class="work-visual visual-communication"><span>Communication</span></div>
+        <div class="work-copy">
+          <p class="work-type">COMMUNICATION</p>
+          <h3>National Representative among 80 Citizens</h3>
+          <p>Participating in public communication and interviews as one of 80 citizen representatives.</p>
+          <div class="tags"><span>Interview</span><span>Public Engagement</span><span>Communication</span></div>
+        </div>
+      </a>
+    </article>
+  </div>
+</section>
+
+<section class="page-section section-tint">
+  <div class="shell">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">PUBLICATIONS</p>
+        <h2>Selected Publications</h2>
       </div>
+      <a class="section-more" href="{{ '/publications/' | relative_url }}">All publications</a>
+    </div>
 
-      <div class="hero-art">
-        <div class="portrait-frame">
-          <img src="./assets/profile.jpg?rev=20260818" alt="Portrait" />
-        </div>
-        <div class="orbit orbit-one" aria-hidden="true"></div>
-        <div class="orbit orbit-two" aria-hidden="true"></div>
-        <div class="scribble" aria-hidden="true">↝</div>
-      </div>
-    </section>
-
-    <section id="what-i-do" class="section shell">
-      <div class="section-heading">
-        <p class="section-no">01</p>
-        <div>
-          <p class="eyebrow">WHAT I DO</p>
-          <h2>Research, practice,<br>and communication.</h2>
-        </div>
-      </div>
-
-      <div class="pillars">
-        <article class="pillar">
-          <p class="pillar-index">01</p>
-          <h3>Research</h3>
-          <p>I study environmental conditions and their relationships with human health.</p>
-          <div class="keyword-line">Environmental Health · Nature &amp; Health · Biodiversity · Mental Health</div>
-        </article>
-        <article class="pillar">
-          <p class="pillar-index">02</p>
-          <h3>Practice</h3>
-          <p>I take part in ecological and environmental work beyond the desk.</p>
-          <div class="keyword-line">Ecological Projects · Fieldwork · Conservation · Community Engagement</div>
-        </article>
-        <article class="pillar">
-          <p class="pillar-index">03</p>
-          <h3>Communication</h3>
-          <p>I share ecology and environmental issues with broader audiences.</p>
-          <div class="keyword-line">Environmental News · Ecology · Science Communication · Public Engagement</div>
-        </article>
-      </div>
-    </section>
-
-    <section id="selected-work" class="section section-dark">
-      <div class="shell">
-        <div class="section-heading light-heading">
-          <p class="section-no light">02</p>
-          <div>
-            <p class="eyebrow light">SELECTED WORK</p>
-            <h2>Beyond a single lane.</h2>
-          </div>
-        </div>
-
-        <div class="work-grid">
-          <a class="work-card work-card-large" href="https://doi.org/10.5322/JESI.2026.35.6.445" target="_blank" rel="noreferrer">
-            <div class="work-visual visual-swallow"><span>R</span></div>
-            <div class="work-copy">
-              <p class="work-type">Research</p>
-              <h3>Barn Swallows &amp;<br>Traditional Markets</h3>
-              <p>Urban biodiversity · Human perception · Conservation</p>
-              <span class="work-arrow">↗</span>
-            </div>
-          </a>
-
-          <article class="work-card">
-            <div class="work-visual visual-heron"><span>R</span></div>
-            <div class="work-copy">
-              <p class="work-type">Research</p>
-              <h3>Urban Heron<br>Habitat Modeling</h3>
-              <p>Species distribution · MaxEnt · Urban ecology</p>
-            </div>
-          </article>
-
-          <article class="work-card">
-            <div class="work-visual visual-ecomoneyna"><span>P</span></div>
-            <div class="work-copy">
-              <p class="work-type">Practice</p>
-              <h3>Ecomoneyna</h3>
-              <p>Ecological action · Environmental projects · Community engagement</p>
-            </div>
-          </article>
-
-          <article class="work-card">
-            <div class="work-visual visual-national"><span>C</span></div>
-            <div class="work-copy">
-              <p class="work-type">Communication</p>
-              <h3>National Representative<br>among 80 Citizens</h3>
-              <p>Interview · Public engagement · Civic communication</p>
-            </div>
-          </article>
-        </div>
-        <p class="image-note">Selected-work cards are ready for project and field photos as the archive grows.</p>
-      </div>
-    </section>
-
-    <section id="publications" class="section section-tint">
-      <div class="shell">
-        <div class="section-heading compact">
-          <p class="section-no">03</p>
-          <div>
-            <p class="eyebrow">SELECTED PUBLICATIONS</p>
-            <h2>Research in print.</h2>
-          </div>
-        </div>
-
-        <div class="publication-list">
-          <article class="publication">
-            <div class="pub-year">2026</div>
-            <div class="pub-main">
-              <a href="https://doi.org/10.5322/JESI.2026.35.6.445" target="_blank" rel="noreferrer"><h3>Nesting Status of Barn Swallows and Citizen Perceptions in Traditional Markets of a Metropolitan City ↗</h3></a>
-              <p><strong>Jang, E.</strong>, Cha, I., Park, J., &amp; Rho, P.</p>
-              <p class="muted">Journal of Environmental Science International, 35(6), 445–457.</p>
-            </div>
-          </article>
-
-          <article class="publication">
-            <div class="pub-year">2025</div>
-            <div class="pub-main">
-              <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003199039" target="_blank" rel="noreferrer"><h3>A Long-Term Unexecuted Park Development Plan Based on the Characteristics of Visitors to Revitalize Local Tourism: Focusing on Janggi City Park in Daegu ↗</h3></a>
-              <p><strong>Jang, E.</strong>, Kim, G., Kim, H., &amp; Moon, H.</p>
-              <p class="muted">Culinary Science &amp; Hospitality Research, 31(4), 180–187.</p>
-            </div>
-          </article>
-        </div>
-        <p class="section-link">Full Publications will later include journal articles, books &amp; chapters, conference papers &amp; presentations, and working manuscripts.</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section shell">
-      <div class="section-heading compact">
-        <p class="section-no">04</p>
-        <div>
-          <p class="eyebrow">CURRENT PROJECT</p>
-          <h2>Where I'm heading.</h2>
-        </div>
-      </div>
-
-      <article class="current-project">
-        <div>
-          <p class="project-kicker">DEVELOPING · ENVIRONMENTAL HEALTH</p>
-          <h3>Biodiversity × Human Health</h3>
-          <p>Exploring how biodiversity exposure and ecological conditions may relate to human health through spatial and environmental-health approaches.</p>
-        </div>
-        <div class="project-tags">
-          <span>Biodiversity</span>
-          <span>Environmental Health</span>
-          <span>Spatial Analysis</span>
+    <div class="publication-list">
+      <article class="publication">
+        <div class="pub-year">2026</div>
+        <div class="pub-main">
+          <a href="https://doi.org/10.5322/JESI.2026.35.6.445" target="_blank" rel="noreferrer"><h3>Nesting Status of Barn Swallows and Citizen Perceptions in Traditional Markets of a Metropolitan City ↗</h3></a>
+          <p><strong>Jang, E.</strong>, Cha, I., Park, J., &amp; Rho, P.</p>
+          <p class="muted"><em>Journal of Environmental Science International</em>, 35(6), 445–457.</p>
         </div>
       </article>
-    </section>
+      <article class="publication">
+        <div class="pub-year">2025</div>
+        <div class="pub-main">
+          <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003199039" target="_blank" rel="noreferrer"><h3>A Long-Term Unexecuted Park Development Plan Based on the Characteristics of Visitors to Revitalize Local Tourism: Focusing on Janggi City Park in Daegu ↗</h3></a>
+          <p><strong>Jang, E.</strong>, Kim, G., Kim, H., &amp; Moon, H.</p>
+          <p class="muted"><em>Culinary Science &amp; Hospitality Research</em>, 31(4), 180–187.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <section id="connect" class="connect-section">
-      <div class="shell connect-layout">
-        <div>
-          <p class="eyebrow light">CONNECT</p>
-          <h2>Research grows<br>outside the paper, too.</h2>
+<section class="page-section shell">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">RECENT ACTIVITIES</p>
+      <h2>Beyond the papers.</h2>
+    </div>
+    <a class="section-more" href="{{ '/activities/' | relative_url }}">All activities</a>
+  </div>
+
+  <div class="post-grid">
+    {% for post in site.posts limit:3 %}
+    <article class="post-card" data-category="{{ post.category | escape }}">
+      <a href="{{ post.url | relative_url }}">
+        {% if post.image %}
+        <div class="post-image"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}" /></div>
+        {% else %}
+        <div class="post-image post-placeholder"><span>{{ post.category }}</span></div>
+        {% endif %}
+        <div class="post-copy">
+          <p class="post-meta">{{ post.category | upcase }} · {{ post.activity_date }}</p>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description }}</p>
         </div>
-        <div class="connect-links">
-          <a href="https://www.instagram.com/yes_pyo/" target="_blank" rel="noreferrer"><span>Instagram</span><b>↗</b></a>
-          <a href="https://www.youtube.com/@ecomoneyna" target="_blank" rel="noreferrer"><span>YouTube</span><b>↗</b></a>
-          <a href="https://blog.naver.com/yes_explorer" target="_blank" rel="noreferrer"><span>Blog</span><b>↗</b></a>
-          <a href="https://github.com/eungpyojang" target="_blank" rel="noreferrer"><span>GitHub</span><b>↗</b></a>
-          <a href="mailto:yes_explorer@naver.com"><span>Email</span><b>↗</b></a>
-        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="connect" class="connect-section">
+  <div class="shell connect-grid">
+    <div>
+      <p class="eyebrow light">LET'S CONNECT</p>
+      <h2>Let’s work together.</h2>
+    </div>
+    <div>
+      <p class="connect-copy">Open to research collaborations, lectures, talks, media interviews, science communication, and environmental projects.</p>
+      <p class="connect-topics">EcoHealth · Biodiversity · Nature &amp; Health · Environmental Health</p>
+      <div class="connect-links">
+        <a href="mailto:yes_explorer@naver.com?subject=Research%20Collaboration">Research Collaboration →</a>
+        <a href="mailto:yes_explorer@naver.com?subject=Talk%20or%20Media%20Request">Talks &amp; Media →</a>
+        <a href="mailto:yes_explorer@naver.com">Email me →</a>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer shell">
-    <p>© 2026 Eungpyo Jang</p>
-    <p>Environmental Health · Research · Practice · Communication</p>
-    <a href="#top">Back to top ↑</a>
-  </footer>
-</body>
-</html>
+    </div>
+  </div>
+</section>
