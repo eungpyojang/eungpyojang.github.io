@@ -2,9 +2,9 @@
 layout: activity
 title: National Representative among 80 Citizens
 description: Public participation and interview experience as one of 80 nationally selected citizen representatives.
-category: Communication
+category: "Public Engagement"
 activity_date: 15 Aug 2025
-tags: [Public Engagement, Interview, Civic Communication]
+tags: [Interview, Civic Communication, Public Engagement]
 permalink: /activities/national-representative-80-citizens/
 date: 2026-08-19 12:03:00 +0900
 ---
