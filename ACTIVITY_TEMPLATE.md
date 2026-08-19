@@ -13,9 +13,9 @@ Then edit only the title, description, category, activity date, tags, permalink,
 layout: activity
 title: Activity title
 description: One-sentence summary shown on the Activities page.
-category: Ecology
+category: "Ecology & Fieldwork"
 activity_date: Aug 2026
-tags: [Fieldwork, Biodiversity]
+tags: [Biodiversity, Fieldwork]
 permalink: /activities/short-title/
 date: 2026-08-19 12:00:00 +0900
 ---
@@ -25,7 +25,14 @@ Write the activity story here in normal Markdown.
 Add another paragraph here.
 ```
 
-Recommended categories: `Ecomoneyna`, `Ecology`, `Fieldwork`, `Communication`, `Public Engagement`.
+Recommended categories:
+- `Ecomoneyna`
+- `Ecology & Fieldwork`
+- `Environmental Projects`
+- `Education & Outreach`
+- `Public Engagement`
+
+These categories are broad enough to cover the main types of activities currently represented in the CV, including Ecomoneyna leadership, ecological fieldwork, restoration/design projects, peer education, youth representation, and public-facing civic participation.
 
 To add a photo later, upload it to `assets/activities/` and add this line inside the front matter:
 
