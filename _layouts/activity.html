@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="activity-article shell" id="top">
+  <a class="back-link" href="{{ '/activities/' | relative_url }}">← All activities</a>
+  <header class="activity-article-head">
+    <p class="eyebrow">{{ page.category | upcase }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="activity-deck">{{ page.description }}</p>
+    <div class="activity-meta">
+      <span>{{ page.activity_date }}</span>
+      {% if page.tags %}<span>{{ page.tags | join: ' · ' }}</span>{% endif %}
+    </div>
+  </header>
+  {% if page.image %}
+  <figure class="activity-hero-image"><img src="{{ page.image | relative_url }}" alt="{{ page.title }}" /></figure>
+  {% else %}
+  <div class="activity-hero-placeholder"><span>{{ page.category }}</span></div>
+  {% endif %}
+  <div class="activity-body prose">
+    {{ content }}
+  </div>
+</article>
