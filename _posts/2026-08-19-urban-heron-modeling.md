@@ -2,7 +2,7 @@
 layout: activity
 title: Urban Heron Habitat Modeling
 description: Modeling habitat suitability of five Ardeidae species to examine ecological drivers of urban coexistence.
-category: Ecology
+category: "Ecology & Fieldwork"
 activity_date: Feb–Sep 2025
 tags: [MaxEnt, GIS, Species Distribution]
 permalink: /activities/urban-heron-modeling/
