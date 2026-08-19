@@ -2,9 +2,9 @@
 layout: activity
 title: Barn Swallow Fieldwork in Traditional Markets
 description: Ecological and social fieldwork examining swallow nesting and coexistence across traditional markets.
-category: Fieldwork
+category: "Ecology & Fieldwork"
 activity_date: Feb 2025–2026
-tags: [Ecology, Urban Biodiversity, Traditional Markets]
+tags: [Urban Biodiversity, Traditional Markets, Fieldwork]
 permalink: /activities/barn-swallow-fieldwork/
 date: 2026-08-19 12:02:00 +0900
 ---
