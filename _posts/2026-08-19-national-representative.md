@@ -5,6 +5,7 @@ description: Public participation and interview experience as one of 80 national
 category: "Public Engagement"
 activity_date: 15 Aug 2025
 tags: [Interview, Civic Communication, Public Engagement]
+image: /assets/research/national-representative-home.jpg
 permalink: /activities/national-representative-80-citizens/
 date: 2026-08-19 12:03:00 +0900
 ---
