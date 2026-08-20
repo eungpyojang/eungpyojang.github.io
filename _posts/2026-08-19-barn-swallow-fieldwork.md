@@ -5,6 +5,7 @@ description: Ecological and social fieldwork examining swallow nesting and coexi
 category: "Ecology & Fieldwork"
 activity_date: Feb 2025–2026
 tags: [Urban Biodiversity, Traditional Markets, Fieldwork]
+image: /assets/research/swallow-home.jpg
 permalink: /activities/barn-swallow-fieldwork/
 date: 2026-08-19 12:02:00 +0900
 ---
