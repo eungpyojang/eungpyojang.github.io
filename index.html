@@ -9,6 +9,26 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
     font-size:clamp(1.55rem,2.45vw,2.25rem);
     white-space:nowrap;
   }
+  .work-visual.work-photo::before,
+  .work-visual.work-photo::after{display:none;}
+  .work-visual.work-photo img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .work-visual.work-photo span{
+    padding:7px 11px;
+    border-radius:999px;
+    background:rgba(23,54,44,.82);
+    color:#fff;
+    backdrop-filter:blur(4px);
+  }
+  .work-photo-swallow img{object-position:center 48%;}
+  .work-photo-ecomoneyna img{object-position:center 44%;}
+  .work-photo-national img{object-position:center 45%;}
   @media (max-width:900px){
     .research-focus-copy h3{white-space:normal;}
   }
@@ -68,7 +88,10 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
   <div class="work-grid">
     <article class="work-card work-large">
       <a href="https://doi.org/10.5322/JESI.2026.35.6.445" target="_blank" rel="noreferrer">
-        <div class="work-visual visual-swallow"><span>Research</span></div>
+        <div class="work-visual work-photo work-photo-swallow">
+          <img src="{{ '/assets/swallow-home.jpg' | relative_url }}" alt="Barn swallow fieldwork in a traditional market" />
+          <span>Research</span>
+        </div>
         <div class="work-copy">
           <p class="work-type">RESEARCH</p>
           <h3>Barn Swallows &amp; Traditional Markets</h3>
@@ -92,7 +115,10 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
 
     <article class="work-card">
       <a href="{{ '/activities/ecomoneyna/' | relative_url }}">
-        <div class="work-visual visual-ecomoneyna"><span>Practice</span></div>
+        <div class="work-visual work-photo work-photo-ecomoneyna">
+          <img src="{{ '/assets/ecomoneyna-home.jpg' | relative_url }}" alt="Ecomoneyna environmental activity group" />
+          <span>Practice</span>
+        </div>
         <div class="work-copy">
           <p class="work-type">PRACTICE</p>
           <h3>Ecomoneyna</h3>
@@ -104,7 +130,10 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
 
     <article class="work-card work-wide">
       <a href="{{ '/activities/national-representative-80-citizens/' | relative_url }}">
-        <div class="work-visual visual-communication"><span>Communication</span></div>
+        <div class="work-visual work-photo work-photo-national">
+          <img src="{{ '/assets/national-representative-home.jpg' | relative_url }}" alt="Public interview as one of 80 citizen representatives" />
+          <span>Communication</span>
+        </div>
         <div class="work-copy">
           <p class="work-type">COMMUNICATION</p>
           <h3>National Representative among 80 Citizens</h3>
