@@ -1,0 +1,118 @@
+.hero-art{
+  min-height:560px;
+  position:relative;
+  isolation:isolate;
+}
+
+.hero-art .portrait-frame,
+.hero-art .portrait-glow,
+.hero-art .ring-one{
+  background-color:#dfe7df;
+  background-size:cover;
+  background-repeat:no-repeat;
+  box-shadow:0 24px 55px rgba(23,54,44,.14);
+  border:5px solid rgba(251,250,245,.96);
+}
+
+.hero-art .portrait-frame{
+  position:absolute;
+  z-index:4;
+  left:2%;
+  top:9%;
+  width:330px;
+  height:430px;
+  aspect-ratio:auto;
+  border-radius:46% 54% 48% 52% / 40% 42% 58% 60%;
+  background-image:url('/assets/hero-main.jpg');
+  background-position:center 48%;
+  overflow:hidden;
+  transform:rotate(-2deg);
+}
+
+.hero-art .portrait-frame img{display:none;}
+
+.hero-art .portrait-glow{
+  position:absolute;
+  z-index:6;
+  width:220px;
+  height:220px;
+  right:2%;
+  top:3%;
+  border-radius:50%;
+  background-image:url('/assets/hero-practice.jpg');
+  background-position:center 43%;
+  filter:none;
+}
+
+.hero-art .ring-one{
+  position:absolute;
+  z-index:7;
+  width:300px;
+  height:185px;
+  right:-1%;
+  bottom:4%;
+  border-radius:48% 52% 47% 53% / 58% 46% 54% 42%;
+  background-image:url('/assets/hero-communication.jpg');
+  background-position:center center;
+  transform:rotate(-2deg);
+}
+
+.hero-art .ring-two{
+  position:absolute;
+  z-index:1;
+  width:470px;
+  height:500px;
+  left:0;
+  top:2%;
+  border:1px solid rgba(47,115,89,.34);
+  border-radius:49% 51% 45% 55% / 42% 54% 46% 58%;
+  transform:rotate(13deg);
+}
+
+.hero-art .portrait-frame::after,
+.hero-art .portrait-glow::after,
+.hero-art .ring-one::after{
+  position:absolute;
+  z-index:9;
+  left:16px;
+  bottom:14px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(23,54,44,.82);
+  color:#fff;
+  font-size:.64rem;
+  line-height:1;
+  letter-spacing:.12em;
+  font-weight:800;
+  text-transform:uppercase;
+  backdrop-filter:blur(5px);
+}
+
+.hero-art .portrait-frame::after{content:'Research';}
+.hero-art .portrait-glow::after{content:'Practice';}
+.hero-art .ring-one::after{content:'Communication';}
+
+.hero-art .hero-squiggle{
+  z-index:2;
+  right:-3%;
+  bottom:8%;
+  opacity:.72;
+}
+
+@media (max-width:1100px){
+  .hero-art .portrait-frame{width:300px;height:390px;left:0;}
+  .hero-art .portrait-glow{width:190px;height:190px;right:0;}
+  .hero-art .ring-one{width:270px;height:165px;right:0;}
+  .hero-art .ring-two{width:430px;height:460px;}
+}
+
+@media (max-width:760px){
+  .hero-art{min-height:460px;margin-top:18px;}
+  .hero-art .portrait-frame{width:245px;height:320px;left:5%;top:8%;}
+  .hero-art .portrait-glow{width:150px;height:150px;right:4%;top:2%;}
+  .hero-art .ring-one{width:215px;height:135px;right:2%;bottom:4%;}
+  .hero-art .ring-two{width:330px;height:360px;left:8%;top:2%;}
+  .hero-art .portrait-frame::after,
+  .hero-art .portrait-glow::after,
+  .hero-art .ring-one::after{font-size:.55rem;padding:5px 8px;left:10px;bottom:10px;}
+}
