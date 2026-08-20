@@ -5,6 +5,7 @@ description: Building and leading an environmental community focused on ecologic
 category: Ecomoneyna
 activity_date: Apr 2022–Present
 tags: [Ecology, Community Engagement, Environmental Action]
+image: /assets/research/ecomoneyna-home.jpg
 permalink: /activities/ecomoneyna/
 date: 2026-08-19 12:04:00 +0900
 ---
