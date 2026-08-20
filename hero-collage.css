@@ -23,7 +23,7 @@
   height:430px;
   aspect-ratio:auto;
   border-radius:46% 54% 48% 52% / 40% 42% 58% 60%;
-  background-image:url('/assets/hero-main.jpg');
+  background-image:url('/assets/research/hero-main.jpg');
   background-position:center 48%;
   overflow:hidden;
   transform:rotate(-2deg);
@@ -39,7 +39,7 @@
   right:2%;
   top:3%;
   border-radius:50%;
-  background-image:url('/assets/hero-practice.jpg');
+  background-image:url('/assets/research/hero-practice.jpg');
   background-position:center 43%;
   filter:none;
 }
@@ -52,7 +52,7 @@
   right:-1%;
   bottom:4%;
   border-radius:48% 52% 47% 53% / 58% 46% 54% 42%;
-  background-image:url('/assets/hero-communication.jpg');
+  background-image:url('/assets/research/hero-communication.jpg');
   background-position:center center;
   transform:rotate(-2deg);
 }
