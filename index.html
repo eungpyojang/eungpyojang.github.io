@@ -9,6 +9,31 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
     font-size:clamp(1.55rem,2.45vw,2.25rem);
     white-space:nowrap;
   }
+  .position-highlights{
+    display:flex;
+    flex-wrap:wrap;
+    gap:9px;
+    margin-top:14px;
+  }
+  .position-highlight{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 12px;
+    border:1px solid rgba(47,115,89,.22);
+    border-radius:999px;
+    background:rgba(255,255,255,.42);
+    font-size:.82rem;
+    line-height:1.2;
+  }
+  .position-highlight strong{
+    font-weight:700;
+    color:#48574f;
+  }
+  .position-highlight b{
+    color:var(--accent);
+    font-weight:800;
+  }
   .work-visual.work-photo::before,
   .work-visual.work-photo::after{display:none;}
   .work-visual.work-photo img{
@@ -39,7 +64,10 @@ description: Eungpyo Jang is an environmental health researcher focusing on EcoH
     <p class="eyebrow">HI THERE, I'M</p>
     <h1>Eungpyo<br><span>Jang.</span></h1>
     <p class="role">Environmental Health Researcher</p>
-    <p class="position-line">Founder &amp; President, Ecomoneyna · Research Intern with STEP Lab, KAIST GGGS</p>
+    <div class="position-highlights" aria-label="Current roles">
+      <span class="position-highlight"><strong>Founder &amp; President</strong><b>Ecomoneyna</b></span>
+      <span class="position-highlight"><strong>Research Intern</strong><b>STEP Lab · KAIST GGGS</b></span>
+    </div>
     <p class="identity-line">EcoHealth · Research · Practice · Communication</p>
     <p class="intro">I aim to understand how nature, biodiversity, and environmental change shape human health, and to connect research with ecological practice and public communication.</p>
     <div class="hero-links">
